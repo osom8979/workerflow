@@ -4,8 +4,8 @@ from contextlib import redirect_stdout
 from io import StringIO
 from unittest import TestCase, main
 
-from __PACKAGE_LOWER__.arguments import version
-from __PACKAGE_LOWER__.entrypoint import main as entrypoint_main
+from workerflow.arguments import version
+from workerflow.entrypoint import main as entrypoint_main
 
 
 class EntrypointTestCase(TestCase):
